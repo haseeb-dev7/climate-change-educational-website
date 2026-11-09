@@ -14,7 +14,7 @@ A responsive educational website designed and developed as part of my Level 3 Co
 Before development, I created:
 - Wireframes
 - Mock-ups
-- Flowcharts
+- Sitemap
 - Mood boards
 # What I Learned
 This project improved my understanding of:

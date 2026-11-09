@@ -1,0 +1,130 @@
+:root {
+    --brand-primary: #2D6A4F;
+    --brand-secondary: #2E86AB;
+    --brand-accent: #E9A23B;
+    --brand-dark: #1B4332;
+    --brand-light: #F8F7F2;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: var(--brand-light);
+    color: #212529;
+}
+
+h1, h2, h3, h4, .navbar-brand {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    color: var(--brand-dark);
+}
+
+a {
+    color: var(--brand-secondary);
+}
+
+.custom-box {
+    background-color: var(--brand-primary);
+    color: white;
+    padding: 3rem 1.5rem;
+    border-radius: 10px;
+}
+.custom-box h2 {
+    color: black;
+}
+
+/* Navigation Custom Colours */
+.navbar {
+    background-color: var(--brand-dark) !important;
+}
+.nav-link {
+    color: #dfe6e1 !important;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.nav-link:hover {
+    color: var(--brand-accent) !important;
+}
+.navbar-nav .nav-link.active {
+    color: var(--brand-accent) !important;
+}
+.navbar-brand {
+    color: var(--brand-light) !important;
+}
+
+/* Hero Banner (homepage) */
+.hero-home {
+    background-image: linear-gradient(rgba(27,67,50,0.75), rgba(27,67,50,0.75)), url('../assests/Deforestation.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hero Banner (inner pages) */
+.hero-page {
+    background-color: var(--brand-dark);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.hero-page h1,
+.hero-page p {
+    color: var(--brand-light) !important;
+}
+
+/* Feature Cards */
+.feature-card {
+    border: 1px solid #ddd6c5;
+    background-color: #fff;
+    height: 100%;
+    min-height: 240px;
+}
+.feature-card h3 {
+    font-size: 1.25rem;
+}
+
+/* Buttons */
+.btn-tg-amber {
+    background-color: var(--brand-accent);
+    border-color: var(--brand-accent);
+    color: var(--brand-dark);
+    font-weight: 600;
+}
+.btn-tg-amber:hover {
+    background-color: #d4901f;
+    border-color: #d4901f;
+    color: white;
+}
+
+.btn-tg-green {
+    background-color: var(--brand-primary);
+    border-color: var(--brand-primary);
+    color: white;
+    font-weight: 600;
+}
+.btn-tg-green:hover {
+    background-color: var(--brand-dark);
+    border-color: var(--brand-dark);
+}
+
+/* Take Action checklist */
+.action-list li {
+    margin-bottom: 0.75rem;
+}
+
+/* Footer */
+footer {
+    background-color: var(--brand-dark);
+    color: #dfe6e1;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+}
+footer a {
+    color: var(--brand-accent);
+}
+
+@media (max-width: 768px) {
+    .hero-home .overlay h1 {
+        font-size: 2rem;
+    }
+    .custom-box {
+        padding: 2rem 1rem;
+    }
+}
